@@ -1,11 +1,17 @@
 var mysql = require("mysql");
 
-var connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "rootpassword",
-  database: "friends_db"
-});
+
+var env = process.env.NODE_ENV || 'development';
+var config = require(__dirname + "/config.json")[env];
+
+console.log(config);
+
+if(config.use_env_variable){
+  var connection = mysql.createConnection(process.env[config.use_env_variable]);
+}else{
+  var connection = mysql.createConnection(config);
+}
+
 
 connection.connect(function(err) {
   if (err) {
