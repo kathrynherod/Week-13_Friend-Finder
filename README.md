@@ -13,6 +13,10 @@ Click [here to launch the application in your browser](https://kh-friend-finder.
 
 1. Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
 
+![1](https://github.com/kathrynherod/Week-13_Friend-Finder/blob/master/gifs/ex1.gif?raw=true)
+
+![2](https://github.com/kathrynherod/Week-13_Friend-Finder/blob/master/gifs/ex2.gif?raw=true)
+
 2. Your `server.js` file should require the basic npm packages we've used in class: `express`, `body-parser` and `path`.
 
 3. Your `htmlRoutes.js` file should include two routes:
@@ -40,12 +44,17 @@ Click [here to launch the application in your browser](https://kh-friend-finder.
 
 7. Once you've found the current user's most compatible friend, display the result as a modal pop-up.
    * The modal should display both the name and picture of the closest match. 
+   
+   # I added a bonus feature to calculate the % compatibility with the friend match.
+   
+![3](https://github.com/kathrynherod/Week-13_Friend-Finder/blob/master/gifs/ex3.gif?raw=true)
 
 - - -
+## Database updates with user repsonse for matching future entries
 
-* I added a bonus feature to calculate the % compatibility with the friend match.
+![4](https://github.com/kathrynherod/Week-13_Friend-Finder/blob/master/gifs/ex4.gif?raw=true)
 
 
-## Copyright
 
+# Copyright
 Coding Boot Camp (C) 2016. All Rights Reserved.
