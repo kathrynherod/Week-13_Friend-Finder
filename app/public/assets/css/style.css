@@ -50,8 +50,6 @@ h4 {
 .loveKitty {
   background-image: url(../icons/loveKitty.png);
 }
-.madKitty, .sadKitty, .mehKitty, .happyKitty, .loveKitty {
-}
 
 .kitties{
   cursor:pointer;
@@ -104,7 +102,6 @@ input[type = radio]{
   height: 250px;
   border-radius: 45px;
   padding: 30px;
-  
 }
 
 .col-md-6, .col-md-5 {
@@ -135,4 +132,9 @@ input[type = radio]{
 #match-img {
   max-height: 50vh;
   width: auto;
+}
+#my-icon {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
 }
