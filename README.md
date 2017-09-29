@@ -45,7 +45,7 @@ Click [here to launch the application in your browser](https://kh-friend-finder.
 7. Once you've found the current user's most compatible friend, display the result as a modal pop-up.
    * The modal should display both the name and picture of the closest match. 
    
-   # I added a bonus feature to calculate the % compatibility with the friend match.
+   #### I added a bonus feature to calculate the % compatibility with the friend match.
    
 ![3](https://github.com/kathrynherod/Week-13_Friend-Finder/blob/master/gifs/ex3.gif?raw=true)
 
